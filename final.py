@@ -8,10 +8,13 @@ import create_model as cm
 
 st.title("Automatic medical report generation from radiology chest x-ray using deep learning strategy")
 
-st.markdown("<small>by Rajath R Pai\nSahasya D Rao\nShrilakshmi Pai N\nPratham Koodakandi</small>",unsafe_allow_html=True)
+st.markdown("<small>by Rajath R Pai</small>",unsafe_allow_html=True)
+st.markdown("Sahasya D Rao")
+st.markdown("hrilakshmi Pai N")
+st.markdown("Pratham Koodakandi")
 st.markdown("[<small>Github</small>](https://github.com/rajathpi/automatic-report-generator)",unsafe_allow_html=True)
 st.markdown("\nThis app will generate impression part of an X-ray report.\nYou can upload 2 X-rays that are front view and side view of chest of the same individual.")
-st.markdown("The 2nd X-ray is optional.")
+
 
 
 
